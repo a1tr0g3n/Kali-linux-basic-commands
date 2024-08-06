@@ -1,0 +1,33 @@
+C026-
+
+### Filesystem Types Summary
+
+1. **EXFAT (Extended File Allocation Table)**
+   - Optimized for flash drives
+   - Supports large files and volumes
+   - No journaling
+   - Compatible with Windows and macOS
+
+2. **FAT (File Allocation Table)**
+   - Old Microsoft filesystem
+   - Limited to 4 GB file sizes and 2 TB volumes
+   - Simple and widely compatible
+   - Used in older media
+
+3. **FAT32**
+   - Improved FAT version
+   - Supports up to 4 GB file sizes and 2 TB volumes
+   - Widely compatible
+   - Lacks modern features like journaling
+
+4. **NTFS (New Technology File System)**
+   - Advanced filesystem by Microsoft
+   - Supports large files and volumes
+   - Features journaling, compression, encryption
+   - Primarily used in Windows
+
+### Comparison Summary
+- **EXFAT**: Best for large files on flash drives, compatible with multiple OSes.
+- **FAT**: Outdated, limited file and volume size.
+- **FAT32**: Widely compatible, limited to 4 GB files.
+- **NTFS**: Advanced features, best for Windows, supports large storage.
